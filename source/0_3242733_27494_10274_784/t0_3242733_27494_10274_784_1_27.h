@@ -1,0 +1,50 @@
+// Header file for ctxVirtualMachineProgram : 0_3242733_27494_10274_784 Pass:1 Thread:27
+
+#pragma once
+#include "ctxVirtualMachine.h"
+
+gzBool m0_3242733_27494_10274_784_1_27_1406(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1407(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1408(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1409(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1410(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1411(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1412(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1413(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1414(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1415(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1416(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1417(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1418(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1419(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1420(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1421(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1422(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1423(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1424(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1425(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1426(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1427(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1428(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1429(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1430(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1431(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1432(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1433(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1434(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1435(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1436(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1437(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1438(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1439(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1440(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1441(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1442(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1443(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1444(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1445(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1446(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1447(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1448(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1449(ctxVirtualMachineProgram *program);
+gzBool m0_3242733_27494_10274_784_1_27_1450(ctxVirtualMachineProgram *program);
