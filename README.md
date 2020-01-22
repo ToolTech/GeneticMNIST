@@ -1,5 +1,5 @@
 # GeneticMNIST
-A demo of deep genetic evoution for the MNIST dataset
+A demo of deep genetic evolution for the MNIST dataset
 
 The code is probably the fastest MNIST implementation on multicore CPU. This demo however doesn't use multithread. You have to add that yourself.
 
