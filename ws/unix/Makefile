@@ -435,8 +435,8 @@ default:
 	make all
 
 help:
-	# make all        : builds gizmo libs and main program
-	# make clean      : cleans all libs and main program
+	# make all        : builds genetic main program
+	# make clean      : cleans genetic main program
 	# --------------------------------------------------
 	# make debug      : set debug mode of build params
 	# make release    : set release mode of build params
@@ -461,7 +461,7 @@ $(ENAME): $(FILES)  $(GEN_FILES) $(DEPLIBS)
 	test -d $(EDIR) || mkdir -p $(EDIR)
 	$(CXX)  $(DBG_EXT) $(LINKOPTS) -o $(ENAME) $(FILES) $(GEN_FILES) $(LIBS) $(EXT_LIBS)
 	$(DEPUPDATE)
-	# ------------------ done making gizmoBase ---------------- 
+	# ------------------ done making Genetic SW ---------------- 
 
 sinclude depend
 
@@ -483,6 +483,7 @@ clean:
 	rm -f so_locations
 	rm -rf ii_files
 	rm -rf $(FILES)
+	rm -rf $(GEN_FILES)
 	rm -rf $(NAME)
 	# ----------------- done cleaning up -------------------------------
 
@@ -491,7 +492,7 @@ debug:
 	echo "DEBUG =-DGZ_DEBUG" >> buildflags
 	echo "#OPTI_EXT= -O2 $(OPTFLAGS)" >> buildflags
 	echo "#MEM_DEBUG =-DGZ_MEM_DEBUG" >> buildflags
-	echo "#DP_FLAG=-DGZ_DOUBLE_PRECISION" >> buildflags
+	echo "#DP_FLAG=-DGZ_DOUBLE_PRECISION" >> build-flags
 	echo "#DP_EXT=-dp" >> buildflags
 	make clean
 	# ----------------- done debug setup --------------------------
