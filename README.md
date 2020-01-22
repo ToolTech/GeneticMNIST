@@ -14,8 +14,8 @@ Unix: use the make project under ws/unix
 
 E.g.
 
-> make linux_64
-> make debug
-> make -j
+    > make linux_64
+    > make debug
+    > make -j
 
 /Anders Modén
