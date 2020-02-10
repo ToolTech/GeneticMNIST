@@ -102,7 +102,7 @@ int main()
 
 	// Simple output of expected value and probability
 
-	gzFloat denom = 0;
+	
 
 	gzUInt32 max_i = 0;
 	gzFloat maxVal = -1e10;
@@ -114,11 +114,16 @@ int main()
 			maxVal = Value[i];
 			max_i = i;
 		}
-
-		denom += exp(Value[i]);
 	}
 
-	printf("Best value is %d with probability %f%%\n", max_i, exp(maxVal)*100.0f / denom);
+	gzFloat denom = 0;
+
+	for (gzUInt32 i = 0; i < 10; i++)
+	{
+		denom += exp(Value[i]- maxVal);
+	}
+
+	printf("Best value is %d with probability %f%%\n", max_i, 100.0f / denom);
 
 }
 
