@@ -120,7 +120,7 @@ int main()
 
 	for (gzUInt32 i = 0; i < 10; i++)
 	{
-		denom += exp(Value[i]- maxVal);
+		denom += expf(Value[i]- maxVal);
 	}
 
 	printf("Best value is %d with probability %f%%\n", max_i, 100.0f / denom);
