@@ -1,3 +1,22 @@
+#defalt values linux_64
+LINKOPTS = -m64
+AR = ar
+CCOPTS =  -m64 -Wall -Wextra -MD -DGZ_LINUX64 -fshort-wchar -fPIC
+CXXOPTS =  -m64 -Wall -Wextra -MD -DGZ_LINUX64 -fshort-wchar -fPIC -fno-rtti 
+DEPUPDATE = cat *.d > depend
+OPTFLAGS = 
+EXT_LIBS = -lpthread -lm -ldl
+SHARED = -shared
+RANLIB = echo
+SO_EXT = .so
+PLATFORM = linux_64
+EDIR = .
+SUDO = sudo
+PLATFORM_BIT = 64
+
+#default build is debug
+DBG_EXT= -g
+DEBUG =-DGZ_DEBUG
 
 sinclude compilerflags
 sinclude buildflags
